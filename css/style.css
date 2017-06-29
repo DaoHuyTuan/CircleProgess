@@ -1,0 +1,26 @@
+#main {
+  width: 1000px;
+  height: 600px;
+  margin: 0px auto;
+  position: relative; }
+
+#CircleProgess {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  border-radius: 50%;
+  background-color: #1bf0e8;
+  text-align: center; }
+
+#MidCircle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  background-color: white; }
+
+/*# sourceMappingURL=style.css.map */
