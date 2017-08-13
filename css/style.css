@@ -6,7 +6,13 @@
 
 #CircleProgess {
   width: 400px;
-  h
+  height: 400px;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  border-radius: 50%;
+  background-color: #1bf0e8;
+  text-align: center; }
 
 #MidCircle {
   width: 200px;
