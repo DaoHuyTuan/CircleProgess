@@ -11,12 +11,7 @@ ctx.lineWidth = 17;
 ctx.fillStyle = '#4285f4';
 ctx.strokeStyle = "#4285f4";
 
-ctx.textAlign = "center";
-ctx.font="28px monospace";
-ctx.fillText(al+'%', canvasWidth*.52, canvasHeight*.5+5, canvasWidth+100);
-ctx.beginPath();
-ctx.arc(100, 100, 75, start, diff/10+start, false);
-ctx.stroke();
+
 if(al >= 100){
   clearTimeout(sim);
     // Add scripting here that will run when progress completes
