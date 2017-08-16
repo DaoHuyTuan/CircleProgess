@@ -11,7 +11,7 @@ ctx.lineWidth = 17;
 ctx.fillStyle = '#4285f4';
 ctx.strokeStyle = "#4285f4";
 
-ctx.textAlign = "center";
+
 ctx.font="28px monospace";
 ctx.fillText(al+'%', canvasWidth*.52, canvasHeight*.5+5, canvasWidth+100);
 ctx.beginPath();
