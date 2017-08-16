@@ -5,7 +5,11 @@ var canvasWidth = ctx.canvas.width;
 var canvasHeight = ctx.canvas.height;
 var diff;
 function progressSim(){
-
+diff = ((al / 100) * Math.PI*2*10).toFixed(1);
+ctx.clearRect(0, 0, canvasWidth, canvasHeight);
+ctx.lineWidth = 17;
+ctx.fillStyle = '#4285f4';
+ctx.strokeStyle = "#4285f4";
 
 ctx.textAlign = "center";
 ctx.font="28px monospace";
